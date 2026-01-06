@@ -51,6 +51,8 @@ main{
 }
 
 footer{
+    font-family: verdana;
+    font-size: bolder;
     background-color: black;
     color: white;
     padding: 10px;
