@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Passion+One:wght@400;700;900&display=swap');
+
+body{
+    max-width: 100%;
+    margin: auto;
+    max-height: 50%;
+}
+
+header{
+    background-color: black;
+    color: white;
+    padding: 1px;
+    text-align: center;
+    font-size:2cqw;
+}
+
+header > h1{
+    font-family: 'passion one';
+    margin-bottom: -40px;
+    font-size: 4em;
+}
+
+header > p a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/**/
+
+main{ 
+    container-type: inline-size;
+    padding: 30px;
+    max-width: 100%;
+    margin: auto;
+    font-family: 'Comic Relief';
+    font-size: 3cqw;
+    line-height: 1.7em;
+    text-align: justify;
+    
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+   
+}
+
+p{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 15px;
+}
+
+div.imagens1{
+    margin: -30px;
+    box-shadow: 0px 10px 20px 10px rgba(0, 0, 0, 0.582);
+    padding: 10px;
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: center right;
+    
+}
+
+div.imagens2{
+    margin: -30px;
+    box-shadow: 0px 10px 20px 10px rgba(0, 0, 0, 0.582);
+    padding: 10px;
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: center right;
+}
+
+p.fundo{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.418);
+    margin-right: 50% ;
+    padding-left: 10px;
+}
+
+p.marginbaixo{
+    margin-bottom: 150px;
+    box-shadow: 0px 0px 00px 00px rgba(0, 0, 0, 0.582);
+}
+
+p.marginalto{
+    margin-top: 150px;
+}
